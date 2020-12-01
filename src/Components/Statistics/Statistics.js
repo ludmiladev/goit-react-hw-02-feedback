@@ -7,7 +7,7 @@ const Statistics = ({ good, neutral, bad, setValue }) => {
     let positiveFeedback = Math.round((good / total) * 100)
     return (
         <section>
-            <h2>Please leave feedback</h2>
+            <h1>Please leave feedback</h1>
             <StaticticBtn name="good" onClick={setValue}>Good</StaticticBtn>
             <StaticticBtn name="neutral" onClick={setValue}>Neutral</StaticticBtn>
             <StaticticBtn name="bad" onClick={setValue}>Bad</StaticticBtn>
